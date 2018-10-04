@@ -1,0 +1,21 @@
+tu=(1,2,3,4,5,6)
+print(max(tu))
+print(min(tu))
+print(tuple(['abc','bb',32]))
+print(tuple("hello"))
+tup1=(30,476,56)
+(x,y,z)=tup1
+print(tup1)
+val=(12,32,45,32,1)
+(x,y,z)=(max(val),min(val),sum(val))
+print("max:=",x)
+print("min:=",y)
+print("sum=",z)
+topper=(("ankit","B Tech",-98),("chirag","B Tech",98),("bindaL","B Tech",96))
+for x in topper:
+    print(x)
+print(val.count(12))
+t1=(1,23,45,42,1,12,4)
+list1=('s','f','we','eafde','dasef')
+print(list(zip(t1,list1)))
+ 
